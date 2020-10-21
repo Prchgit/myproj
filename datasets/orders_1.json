@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603264311294
+    "lastModifiedOn": 1603264311358
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,9 +73,19 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "7c695766399fa3f84c53eb454d3807350c4e84279d711b93be29a9d5169d2d72",
-    "uploadConnection": "NAS_DCDA",
     "uploadFSProviderType": "Filesystem",
+    "uploadedConfig": {
+      "connection": "NAS_DCDA",
+      "path": "/uploads/${projectKey}/orders_1",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "NAS_DCDA",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
