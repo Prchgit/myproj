@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604025875729
+    "lastModifiedOn": 1604025894356
   },
   "creationTag": {
     "versionNumber": 0,
@@ -120,7 +120,8 @@
       },
       {
         "name": "category1",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "Rank",
