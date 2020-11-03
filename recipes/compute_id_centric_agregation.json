@@ -9,7 +9,11 @@
     "readParams": {
       "mode": "AUTO",
       "autoModeRepartitionInto": 10,
-      "map": {}
+      "map": {
+        "mock_data_3": {
+          "repartition": 10
+        }
+      }
     },
     "sparkConfig": {
       "inheritConf": "sample-yarn-config",
@@ -46,11 +50,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604385606568
+    "lastModifiedOn": 1604385615879
   },
   "creationTag": {
     "versionNumber": 0,
