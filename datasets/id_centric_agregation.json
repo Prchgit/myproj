@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604385596478
+    "lastModifiedOn": 1604385670558
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,16 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "﻿ID",
+        "type": "string"
+      },
+      {
+        "name": "data",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
