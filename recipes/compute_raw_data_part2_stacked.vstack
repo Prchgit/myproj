@@ -66,6 +66,53 @@
     }
   ],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "feature_0",
+            "type": "string"
+          },
+          {
+            "name": "feature_1",
+            "type": "string"
+          },
+          {
+            "name": "feature_2",
+            "type": "string"
+          },
+          {
+            "name": "feature_3",
+            "type": "string"
+          },
+          {
+            "name": "feature_4",
+            "type": "string"
+          },
+          {
+            "name": "feature_5",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "Date",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "Rank",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   },
