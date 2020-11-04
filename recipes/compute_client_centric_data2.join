@@ -4,62 +4,91 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
-      "type": "LEFT",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "type": "RIGHT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "client",
+            "table": 0
+          },
+          "column2": {
+            "name": "ID",
+            "table": 1
+          },
+          "maxDistance": 1,
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "client",
+      "type": "string",
       "table": 0
     },
     {
       "name": "count",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "ID",
+      "type": "string",
       "table": 1
     },
     {
       "name": "feature_0",
+      "type": "string",
       "table": 1
     },
     {
       "name": "feature_1",
+      "type": "string",
       "table": 1
     },
     {
       "name": "feature_2",
+      "type": "string",
       "table": 1
     },
     {
       "name": "feature_3",
+      "type": "string",
       "table": 1
     },
     {
       "name": "feature_4",
+      "type": "string",
       "table": 1
     },
     {
       "name": "feature_5",
+      "type": "string",
       "table": 1
     },
     {
       "name": "label",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Date",
+      "type": "string",
       "table": 1
     },
     {
       "name": "category1",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Rank",
+      "type": "string",
       "table": 1
     }
   ],
@@ -100,8 +129,26 @@
   "virtualInputs": [
     {
       "preFilter": {
+        "uiData": {
+          "mode": "\u0026\u0026",
+          "conditions": [
+            {
+              "input": "client",
+              "col": "count",
+              "string": "02",
+              "num": 0,
+              "operator": "contains"
+            }
+          ]
+        },
+        "$status": {
+          "validated": true,
+          "fullyTranslated": false,
+          "ok": false,
+          "message": "Filter expression is invalid"
+        },
         "distinct": false,
-        "enabled": false
+        "enabled": true
       },
       "autoSelectColumns": false,
       "index": 0,
@@ -117,5 +164,67 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "client",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          },
+          {
+            "name": "ID",
+            "type": "string"
+          },
+          {
+            "name": "feature_0",
+            "type": "string"
+          },
+          {
+            "name": "feature_1",
+            "type": "string"
+          },
+          {
+            "name": "feature_2",
+            "type": "string"
+          },
+          {
+            "name": "feature_3",
+            "type": "string"
+          },
+          {
+            "name": "feature_4",
+            "type": "string"
+          },
+          {
+            "name": "feature_5",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "type": "string"
+          },
+          {
+            "name": "Date",
+            "type": "string"
+          },
+          {
+            "name": "category1",
+            "type": "string"
+          },
+          {
+            "name": "Rank",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
