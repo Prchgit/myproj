@@ -29,16 +29,24 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
+    "highlightFilter": {
+      "type": "anum",
+      "column": "feature_3",
+      "values": [
+        "8.214824276"
+      ],
+      "name": "feature_3: 8.214824276"
+    },
     "cards": [],
     "id": "X1dE0O7"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604457494441
+    "lastModifiedOn": 1604457601141
   },
   "creationTag": {
     "versionNumber": 0,
