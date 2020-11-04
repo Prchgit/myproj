@@ -1,4 +1,5 @@
 {
+  "name": "predictor1z",
   "endpoints": [
     {
       "modelRef": "F1SiSBgC",
