@@ -527,8 +527,8 @@
           "min": 1
         },
         "values": [
-          6,
-          13
+          3,
+          6
         ],
         "range": {
           "min": 5,
@@ -544,7 +544,7 @@
           "min": 1
         },
         "values": [
-          1
+          2
         ],
         "range": {
           "min": 1,
@@ -2049,7 +2049,7 @@
   "backendType": "PY_MEMORY",
   "maxConcurrentModelTraining": 2,
   "envSelection": {
-    "envMode": "USE_BUILTIN_MODE",
+    "envMode": "INHERIT",
     "envName": "py36"
   },
   "containerSelection": {
