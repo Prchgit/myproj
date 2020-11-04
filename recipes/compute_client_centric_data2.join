@@ -1,0 +1,121 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "client",
+      "table": 0
+    },
+    {
+      "name": "count",
+      "table": 0
+    },
+    {
+      "name": "ID",
+      "table": 1
+    },
+    {
+      "name": "feature_0",
+      "table": 1
+    },
+    {
+      "name": "feature_1",
+      "table": 1
+    },
+    {
+      "name": "feature_2",
+      "table": 1
+    },
+    {
+      "name": "feature_3",
+      "table": 1
+    },
+    {
+      "name": "feature_4",
+      "table": 1
+    },
+    {
+      "name": "feature_5",
+      "table": 1
+    },
+    {
+      "name": "label",
+      "table": 1
+    },
+    {
+      "name": "Date",
+      "table": 1
+    },
+    {
+      "name": "category1",
+      "table": 1
+    },
+    {
+      "name": "Rank",
+      "table": 1
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}
