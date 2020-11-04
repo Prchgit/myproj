@@ -3,14 +3,14 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": -1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
@@ -18,17 +18,18 @@
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 80
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "RANDOM",
   "centileTDigest": false,
   "valueSplits": [
     {
@@ -89,6 +90,68 @@
         "uiData": {
           "mode": "\u0026\u0026",
           "conditions": []
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "client",
+                "type": "string"
+              },
+              {
+                "name": "count",
+                "type": "bigint"
+              },
+              {
+                "name": "ID",
+                "type": "string"
+              },
+              {
+                "name": "feature_0",
+                "type": "double"
+              },
+              {
+                "name": "feature_1",
+                "type": "double"
+              },
+              {
+                "name": "feature_2",
+                "type": "double"
+              },
+              {
+                "name": "feature_3",
+                "type": "double"
+              },
+              {
+                "name": "feature_4",
+                "type": "double"
+              },
+              {
+                "name": "feature_5",
+                "type": "double"
+              },
+              {
+                "name": "label",
+                "type": "double"
+              },
+              {
+                "name": "Date",
+                "type": "string"
+              },
+              {
+                "name": "category1",
+                "type": "string"
+              },
+              {
+                "name": "Rank",
+                "type": "string"
+              },
+              {
+                "name": "RankInNum",
+                "type": "double"
+              }
+            ]
+          }
         },
         "distinct": false,
         "enabled": true
