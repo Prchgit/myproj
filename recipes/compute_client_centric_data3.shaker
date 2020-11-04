@@ -45,7 +45,7 @@
         "pythonSourceCode": "# Modify the process function to fit your needs\ndef process(row):\n    # In \u0027cell\u0027 mode, the process function must return\n    # a single cell value for each row,\n    # which will be affected to a new column.\n    # The \u0027row\u0027 argument is a dictionary of columns of the row\n    valueMap \u003d {\"R1\": 1, \"R2\": 2, \"R3\": 3, \"R4\": 4, \"R5\": 5, \"R6\": 6}\n    if row[\u0027Rank\u0027] in valueMap:\n        row[\u0027Rank\u0027] \u003d valueMap[row[\u0027Rank\u0027]]\n    else:\n        row[\u0027Rank\u0027] \u003d -1\n    return row[\u0027Rank\u0027]",
         "useKernel": true,
         "column": "RankInNum",
-        "errorColumn": "rank_error",
+        "errorColumn": "",
         "sourceColumnsList": [
           "Rank"
         ],
