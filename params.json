@@ -21,14 +21,27 @@
       "exportGitRepository": false,
       "exportInsightsData": false,
       "useManualPluginsInfo": false,
-      "includedDatasetsData": [
+      "includedDatasetsData": [],
+      "includedSavedModels": [
         {
-          "name": "mock_data",
-          "type": "FilesInFolder"
+          "id": "F1SiSBgC",
+          "name": "XGBOOST_clf"
         }
       ],
-      "includedSavedModels": [],
-      "includedManagedFolders": [],
+      "includedManagedFolders": [
+        {
+          "id": "3ec84PVP",
+          "name": "input_data_source3"
+        },
+        {
+          "id": "qnpTSRzL",
+          "name": "input_data_source2"
+        },
+        {
+          "id": "FPEt6sdw",
+          "name": "input_data_source1"
+        }
+      ],
       "shareAllInputDatasets": false
     }
   },
@@ -201,11 +214,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1603872891927
+    "lastModifiedOn": 1604482011808
   },
   "creationTag": {
     "versionNumber": 0,
