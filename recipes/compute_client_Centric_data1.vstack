@@ -107,6 +107,7 @@
             "type": "string"
           },
           {
+            "meaning": "Text",
             "name": "category1",
             "type": "string"
           },
