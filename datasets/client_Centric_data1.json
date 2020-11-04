@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604457721568
+    "lastModifiedOn": 1604457724857
   },
   "creationTag": {
     "versionNumber": 0,
@@ -112,7 +112,7 @@
       },
       {
         "name": "feature_5",
-        "type": "string"
+        "type": "float"
       },
       {
         "name": "label",
