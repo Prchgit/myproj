@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604474949587
+    "lastModifiedOn": 1604475113839
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,6 +89,10 @@
       {
         "name": "clients",
         "type": "string"
+      },
+      {
+        "name": "﻿idx_count",
+        "type": "bigint"
       },
       {
         "name": "count",
