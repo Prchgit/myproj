@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604476171070
+    "lastModifiedOn": 1604476215543
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,64 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "client",
+        "type": "string"
+      },
+      {
+        "name": "count",
+        "type": "bigint"
+      },
+      {
+        "name": "ID",
+        "type": "string"
+      },
+      {
+        "name": "feature_0",
+        "type": "double"
+      },
+      {
+        "name": "feature_1",
+        "type": "double"
+      },
+      {
+        "name": "feature_2",
+        "type": "double"
+      },
+      {
+        "name": "feature_3",
+        "type": "double"
+      },
+      {
+        "name": "feature_4",
+        "type": "double"
+      },
+      {
+        "name": "feature_5",
+        "type": "double"
+      },
+      {
+        "name": "label",
+        "type": "double"
+      },
+      {
+        "name": "Date",
+        "type": "string"
+      },
+      {
+        "name": "category1",
+        "type": "string"
+      },
+      {
+        "name": "Rank",
+        "type": "string"
+      },
+      {
+        "name": "RankInNum",
+        "type": "double"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
