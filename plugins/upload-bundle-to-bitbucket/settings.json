@@ -1,0 +1,43 @@
+{
+  "defaultPermission": {
+    "admin": false
+  },
+  "permissions": [],
+  "parameterSets": [
+    {
+      "name": "bitbucket-details",
+      "defaultPermission": {
+        "definableAtProjectLevel": true,
+        "definableInline": true
+      },
+      "permissions": []
+    },
+    {
+      "name": "pull-request-details",
+      "defaultPermission": {
+        "definableAtProjectLevel": true,
+        "definableInline": true
+      },
+      "permissions": []
+    }
+  ],
+  "appTemplates": [],
+  "config": {},
+  "presets": [
+    {
+      "type": "parameter-set-upload-bundle-to-bitbucket-bitbucket-details",
+      "name": "testBundle_zj",
+      "owner": "1625462",
+      "defaultPermission": {
+        "use": false
+      },
+      "permissions": [],
+      "pluginConfig": {},
+      "config": {
+        "branch": "develop",
+        "url": "https://bitbucket.global.standardchartered.com/"
+      }
+    }
+  ],
+  "gitConfig": {}
+}
