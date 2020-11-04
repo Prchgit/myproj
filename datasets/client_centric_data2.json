@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604457151975
+    "lastModifiedOn": 1604457865565
   },
   "creationTag": {
     "versionNumber": 0,
@@ -100,35 +100,35 @@
       },
       {
         "name": "feature_0",
-        "type": "string"
+        "type": "float"
       },
       {
         "name": "feature_1",
-        "type": "string"
+        "type": "float"
       },
       {
         "name": "feature_2",
-        "type": "string"
+        "type": "float"
       },
       {
         "name": "feature_3",
-        "type": "string"
+        "type": "float"
       },
       {
         "name": "feature_4",
-        "type": "string"
+        "type": "float"
       },
       {
         "name": "feature_5",
-        "type": "string"
+        "type": "float"
       },
       {
         "name": "label",
-        "type": "string"
+        "type": "float"
       },
       {
         "name": "Date",
-        "type": "string"
+        "type": "date"
       },
       {
         "name": "category1",
