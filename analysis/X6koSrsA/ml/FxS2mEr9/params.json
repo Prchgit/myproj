@@ -2049,7 +2049,7 @@
   "backendType": "PY_MEMORY",
   "maxConcurrentModelTraining": 2,
   "envSelection": {
-    "envMode": "EXPLICIT_ENV",
+    "envMode": "INHERIT",
     "envName": "py36"
   },
   "containerSelection": {
