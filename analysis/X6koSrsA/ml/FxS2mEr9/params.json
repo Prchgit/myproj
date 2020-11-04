@@ -37,8 +37,8 @@
     "ssdTrainingRatio": 0.8,
     "ssdSeed": 1337,
     "testOnLargerValues": true,
-    "kfold": false,
-    "nFolds": 5,
+    "kfold": true,
+    "nFolds": 3,
     "instanceIdRefresher": 0,
     "subSamplingSeed": 1337
   },
@@ -273,7 +273,7 @@
         "max_cat_safety": 200,
         "nb_bins_hashing": 1048576,
         "dummy_drop": "AUTO",
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "CATEGORY",
         "state": {
           "userModified": false,
@@ -356,7 +356,7 @@
         "max_cat_safety": 200,
         "nb_bins_hashing": 1048576,
         "dummy_drop": "AUTO",
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "CATEGORY",
         "state": {
           "userModified": false,
@@ -1615,7 +1615,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": false
+      "enabled": true
     },
     "deep_learning_sparkling": {
       "enabled": false,
@@ -1945,48 +1945,48 @@
             "gbdt"
           ],
           "num_leaves": [
-            50.0,
-            100.0
+            50,
+            100
           ],
           "max_depth": [
-            50.0,
-            100.0
+            50,
+            100
           ],
           "learning_rate": [
             0.2
           ],
           "n_estimators": [
-            50.0,
-            100.0
+            50,
+            100
           ],
           "early_stopping": false,
-          "early_stopping_rounds": 4.0,
+          "early_stopping_rounds": 4,
           "min_split_gain": [
-            0.0
+            0
           ],
           "min_child_weight": [
             0.001
           ],
           "min_child_samples": [
-            20.0
+            20
           ],
           "subsample": [
-            1.0
+            1
           ],
           "subsample_freq": [
-            0.0
+            0
           ],
           "colsample_bytree": [
-            1.0
+            1
           ],
           "reg_alpha": [
-            0.0
+            0
           ],
           "reg_lambda": [
-            0.0
+            0
           ],
-          "random_state": 1337.0,
-          "n_jobs": 4.0
+          "random_state": 1337,
+          "n_jobs": 4
         },
         "supportsSampleWeights": false,
         "acceptsSparseMatrix": false,
