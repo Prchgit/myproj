@@ -32,7 +32,7 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "PythonUDF",
@@ -52,6 +52,20 @@
         "usePythonUnicode": true,
         "vectorSize": 256,
         "vectorize": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithValue",
+      "params": {
+        "columns": [
+          "count"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "value": "0"
       },
       "alwaysShowComment": false
     }
