@@ -43,42 +43,42 @@
     },
     {
       "name": "feature_0",
-      "type": "string",
+      "type": "float",
       "table": 1
     },
     {
       "name": "feature_1",
-      "type": "string",
+      "type": "float",
       "table": 1
     },
     {
       "name": "feature_2",
-      "type": "string",
+      "type": "float",
       "table": 1
     },
     {
       "name": "feature_3",
-      "type": "string",
+      "type": "float",
       "table": 1
     },
     {
       "name": "feature_4",
-      "type": "string",
+      "type": "float",
       "table": 1
     },
     {
       "name": "feature_5",
-      "type": "string",
+      "type": "float",
       "table": 1
     },
     {
       "name": "label",
-      "type": "string",
+      "type": "float",
       "table": 1
     },
     {
       "name": "Date",
-      "type": "string",
+      "type": "date",
       "table": 1
     },
     {
@@ -135,7 +135,7 @@
             {
               "input": "client",
               "col": "count",
-              "string": "02",
+              "string": "id",
               "num": 0,
               "operator": "contains"
             }
@@ -183,35 +183,35 @@
           },
           {
             "name": "feature_0",
-            "type": "string"
+            "type": "float"
           },
           {
             "name": "feature_1",
-            "type": "string"
+            "type": "float"
           },
           {
             "name": "feature_2",
-            "type": "string"
+            "type": "float"
           },
           {
             "name": "feature_3",
-            "type": "string"
+            "type": "float"
           },
           {
             "name": "feature_4",
-            "type": "string"
+            "type": "float"
           },
           {
             "name": "feature_5",
-            "type": "string"
+            "type": "float"
           },
           {
             "name": "label",
-            "type": "string"
+            "type": "float"
           },
           {
             "name": "Date",
-            "type": "string"
+            "type": "date"
           },
           {
             "name": "category1",
