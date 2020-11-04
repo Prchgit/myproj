@@ -2018,7 +2018,7 @@
       "shuffleIterations": 1,
       "nFolds": 3,
       "stratified": true,
-      "strategy": "BAYESIAN",
+      "strategy": "GRID",
       "bayesianOptimizer": "SCIKIT_OPTIMIZE",
       "randomized": true,
       "seed": 0,
