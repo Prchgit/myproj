@@ -35,7 +35,11 @@
       "pluginConfig": {},
       "config": {
         "branch": "develop",
-        "url": "https://bitbucket.global.standardchartered.com/"
+        "url": "https://bitbucket.global.standardchartered.com/",
+        "project": "DATAIKU",
+        "repo": "sit-common1",
+        "user": "1625462",
+        "password": "e:AES:X2:ECTpLxaRvOrm5VpNh5QSZ4pDj/R+ffUNe63/fJhROJd2zGU075ZmdeHC871ICjE3D6EAenQXfxw\u003d"
       }
     }
   ],
