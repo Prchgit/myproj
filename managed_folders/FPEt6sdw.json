@@ -1,5 +1,5 @@
 {
-  "name": "input_data1",
+  "name": "input_data",
   "type": "Filesystem",
   "params": {
     "connection": "NAS_DCDA",
@@ -88,11 +88,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604453548307
+    "lastModifiedOn": 1604453575826
   },
   "creationTag": {
     "versionNumber": 0,
