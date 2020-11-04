@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604455216965
+    "lastModifiedOn": 1604455611658
   },
   "creationTag": {
     "versionNumber": 0,
@@ -156,12 +156,102 @@
       {
         "type": "records",
         "enabled": true,
-        "computeOnBuildMode": "NO",
+        "computeOnBuildMode": "PARTITION",
         "meta": {
           "name": "Record count",
           "level": 0
         },
         "configuration": {}
+      },
+      {
+        "type": "col_stats",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Columns statistics",
+          "level": 2
+        },
+        "configuration": {
+          "aggregates": [
+            {
+              "column": "client",
+              "aggregated": "COUNT"
+            },
+            {
+              "column": "count",
+              "aggregated": "MIN"
+            },
+            {
+              "column": "count",
+              "aggregated": "MAX"
+            },
+            {
+              "column": "ID",
+              "aggregated": "MIN"
+            },
+            {
+              "column": "ID",
+              "aggregated": "MAX"
+            },
+            {
+              "column": "feature_0",
+              "aggregated": "MIN"
+            },
+            {
+              "column": "feature_0",
+              "aggregated": "MAX"
+            },
+            {
+              "column": "Date",
+              "aggregated": "MIN"
+            },
+            {
+              "column": "Date",
+              "aggregated": "MAX"
+            },
+            {
+              "column": "category1",
+              "aggregated": "COUNT"
+            }
+          ]
+        }
+      },
+      {
+        "type": "adv_col_stats",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Most frequent values",
+          "level": 3
+        },
+        "configuration": {
+          "aggregates": [],
+          "numberTopValues": 10
+        }
+      },
+      {
+        "type": "percentile_stats",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Columns percentiles",
+          "level": 4
+        },
+        "configuration": {
+          "aggregates": []
+        }
+      },
+      {
+        "type": "verify_col",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Data validity",
+          "level": 4
+        },
+        "configuration": {
+          "aggregates": []
+        }
       }
     ],
     "engineConfig": {
@@ -205,6 +295,7 @@
       "python": {}
     },
     "displayedState": {
+      "partition": "NP",
       "columns": [],
       "metrics": [
         "basic:COUNT_COLUMNS",
@@ -218,6 +309,7 @@
     "runOnBuild": false,
     "checks": [],
     "displayedState": {
+      "partition": "NP",
       "checks": []
     }
   },
