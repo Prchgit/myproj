@@ -157,8 +157,9 @@
       }
     }
   },
-  "name": "test",
+  "name": "pilotTest",
   "projectStatus": "Sandbox",
+  "imgPattern": 4,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -214,11 +215,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604482011808
+    "lastModifiedOn": 1604566360869
   },
   "creationTag": {
     "versionNumber": 0,
