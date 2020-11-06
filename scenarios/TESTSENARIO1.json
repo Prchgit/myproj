@@ -5,11 +5,11 @@
   "name": "testSenario1",
   "active": false,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604642428379
+    "lastModifiedOn": 1604642518003
   },
   "checklists": {
     "checklists": []
@@ -68,6 +68,24 @@
           "packageId": "v3",
           "transmogrify": false,
           "publishToAPIDeployer": true
+        }
+      },
+      {
+        "id": "deploy api3",
+        "type": "update_apideployer_deployment",
+        "name": "Step #3",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "deploymentId": "api3",
+          "newVersionId": "api4"
         }
       }
     ]
