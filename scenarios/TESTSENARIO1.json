@@ -1,0 +1,30 @@
+{
+  "projectKey": "TEST_2",
+  "id": "TESTSENARIO1",
+  "type": "step_based",
+  "name": "testSenario1",
+  "active": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "1625462"
+    },
+    "lastModifiedOn": 1604642237267
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": []
+  },
+  "automationLocal": false,
+  "customFields": {}
+}
