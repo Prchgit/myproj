@@ -1,4 +1,5 @@
 {
+  "name": "API2",
   "endpoints": [
     {
       "modelRef": "F1SiSBgC",
@@ -20,9 +21,17 @@
       "type": "STD_PREDICTION"
     }
   ],
-  "publicAccess": true,
+  "publicAccess": false,
   "authRealm": {
-    "queryKeys": []
+    "queryKeys": [
+      {
+        "key": "9SFHA6qDWfZ20TLyXmVWM8ouYaTE9vBO",
+        "label": "API2",
+        "description": "for internal access",
+        "createdOn": 1604632522799,
+        "createdBy": "1625462"
+      }
+    ]
   },
   "tags": [],
   "customFields": {},
