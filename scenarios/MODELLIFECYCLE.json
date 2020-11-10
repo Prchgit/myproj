@@ -3,13 +3,13 @@
   "id": "MODELLIFECYCLE",
   "type": "step_based",
   "name": "model lifecycle",
-  "active": true,
+  "active": false,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604997335768
+    "lastModifiedOn": 1604997725525
   },
   "checklists": {
     "checklists": []
