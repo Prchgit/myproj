@@ -5,11 +5,11 @@
   "name": "model lifecycle",
   "active": true,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604997138855
+    "lastModifiedOn": 1604997255041
   },
   "checklists": {
     "checklists": []
@@ -156,6 +156,37 @@
         "params": {
           "deploymentId": "predictor1z-on-DEV_API_NODE",
           "newVersionId": "${updated}"
+        }
+      },
+      {
+        "id": "reporte83eb791a0e47a028896a4a10d49da5a",
+        "type": "send_report",
+        "name": "message",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "failOnMessageNotSent": true,
+          "messaging": {
+            "type": "mail-scenario",
+            "configuration": {
+              "channelId": "fdmi-mailbox",
+              "subject": "DSS scenario ${scenarioName}: ${outcome}",
+              "sender": "pilotTest",
+              "recipient": "\u003czejun.zheng@sc.com\u003e",
+              "sendAsHTML": false,
+              "attachments": [],
+              "messageSource": "TEMPLATE_FILE",
+              "templateFormat": "FREEMARKER",
+              "templateName": "default.ftl"
+            }
+          }
         }
       }
     ]
