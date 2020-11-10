@@ -3,13 +3,13 @@
   "id": "INITIALIZATION",
   "type": "step_based",
   "name": "initialization",
-  "active": false,
+  "active": true,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604994871949
+    "lastModifiedOn": 1604997724136
   },
   "checklists": {
     "checklists": []
