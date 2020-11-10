@@ -5,11 +5,11 @@
   "name": "model lifecycle",
   "active": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604997334447
+    "lastModifiedOn": 1604997335768
   },
   "checklists": {
     "checklists": []
