@@ -3,13 +3,13 @@
   "id": "MODELLIFECYCLE",
   "type": "step_based",
   "name": "model lifecycle",
-  "active": false,
+  "active": true,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604995860406
+    "lastModifiedOn": 1604995925300
   },
   "checklists": {
     "checklists": []
@@ -20,7 +20,25 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "5PqwdCwL",
+      "type": "temporal",
+      "name": "lifecycle_schedular",
+      "delay": 5,
+      "active": true,
+      "params": {
+        "frequency": "Monthly",
+        "daysOfWeek": [
+          "Saturday"
+        ],
+        "dayOfMonth": 1,
+        "minute": 0,
+        "hour": 2,
+        "count": 5
+      }
+    }
+  ],
   "reporters": [],
   "params": {
     "steps": []
