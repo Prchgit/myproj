@@ -1,7 +1,17 @@
 {
   "dashboardAuthorizations": {
     "allAuthorized": false,
-    "authorizations": []
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "F1SiSBgC",
+          "objectType": "SAVED_MODEL"
+        },
+        "modes": [
+          "READ"
+        ]
+      }
+    ]
   },
   "exposedObjects": {
     "objects": []
@@ -215,11 +225,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604566360869
+    "lastModifiedOn": 1604998151088
   },
   "creationTag": {
     "versionNumber": 0,
