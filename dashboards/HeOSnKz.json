@@ -9,44 +9,6 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 8,
-              "height": 4
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "displayMode": "summary"
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "3Ik00Mc",
-            "insightType": "saved-model_report",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 4,
-              "left": 0,
-              "width": 8,
-              "height": 4
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "displayMode": "summary"
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "jnd4V5c",
-            "insightType": "saved-model_report",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 8,
-              "left": 0,
               "width": 5,
               "height": 3
             },
@@ -64,7 +26,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 8,
+              "top": 0,
               "left": 5,
               "width": 5,
               "height": 3
@@ -83,7 +45,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 11,
+              "top": 3,
               "left": 0,
               "width": 10,
               "height": 4
@@ -109,11 +71,11 @@
   "name": "test\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604998440904
+    "lastModifiedOn": 1604998499206
   },
   "creationTag": {
     "versionNumber": 0,
