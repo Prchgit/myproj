@@ -60,6 +60,44 @@
             "insightType": "saved-model_report",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 8,
+              "left": 5,
+              "width": 5,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "mc_confusion"
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "3tXcs52",
+            "insightType": "saved-model_report",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 11,
+              "left": 0,
+              "width": 10,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "c_detailed_metrics"
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "DpHs7Xp",
+            "insightType": "saved-model_report",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -71,11 +109,11 @@
   "name": "test\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604998309233
+    "lastModifiedOn": 1604998440904
   },
   "creationTag": {
     "versionNumber": 0,
