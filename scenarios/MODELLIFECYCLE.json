@@ -5,11 +5,11 @@
   "name": "model lifecycle",
   "active": true,
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604997259437
+    "lastModifiedOn": 1604997334447
   },
   "checklists": {
     "checklists": []
@@ -178,7 +178,7 @@
             "configuration": {
               "channelId": "fdmi-mailbox",
               "subject": "DSS scenario ${scenarioName}: ${outcome}",
-              "sender": "pilotTest",
+              "sender": "\u003czejun.zheng@sc.com\u003e",
               "recipient": "\u003czejun.zheng@sc.com\u003e",
               "sendAsHTML": false,
               "attachments": [],
