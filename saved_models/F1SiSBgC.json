@@ -89,7 +89,9 @@
     ],
     "displayedState": {
       "partition": "NP",
-      "checks": []
+      "checks": [
+        "Value in range of AUC"
+      ]
     }
   },
   "miniTask": {
@@ -1766,11 +1768,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604994969573
+    "lastModifiedOn": 1604996693329
   },
   "creationTag": {
     "versionNumber": 0,
