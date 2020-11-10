@@ -67,7 +67,7 @@
     }
   },
   "metricsChecks": {
-    "runOnBuild": false,
+    "runOnBuild": true,
     "checks": [
       {
         "metricId": "model_perf:AUC",
@@ -1768,11 +1768,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604996693329
+    "lastModifiedOn": 1604996728424
   },
   "creationTag": {
     "versionNumber": 0,
