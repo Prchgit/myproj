@@ -3,7 +3,7 @@
   "rebuildBehavior": "EXPLICIT",
   "name": "XGBOOST_clf",
   "contentType": "prediction/py_memory",
-  "activeVersion": "initial",
+  "activeVersion": "1604997276756",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -1768,11 +1768,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1604996728424
+    "lastModifiedOn": 1604997284402
   },
   "creationTag": {
     "versionNumber": 0,
