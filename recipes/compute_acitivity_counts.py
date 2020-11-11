@@ -9,7 +9,7 @@ from collections import Counter
 activity_data = dataiku.Dataset("activity_data")
 activity_data_df = activity_data.get_dataframe()
 
-
+# new bundle test
 # Compute recipe outputs from inputs
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
