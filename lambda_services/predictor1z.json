@@ -27,6 +27,7 @@
               "feature_4": 2.152741984,
               "feature_5": -0.189894713,
               "label": 1,
+              "Date": "7/1/2034",
               "category1": "B",
               "Rank": "R3",
               "RankInNum": 3
@@ -47,6 +48,7 @@
               "feature_4": 3.456935008,
               "feature_5": -0.530442558,
               "label": 1,
+              "Date": "5/1/2035",
               "category1": "A",
               "Rank": "R5",
               "RankInNum": 5
@@ -67,6 +69,7 @@
               "feature_4": 3.265232392,
               "feature_5": -1.282356973,
               "label": 1,
+              "Date": "11/1/2035",
               "category1": "B",
               "Rank": "R6",
               "RankInNum": 6
@@ -87,6 +90,7 @@
               "feature_4": 1.532623763,
               "feature_5": -1.271618431,
               "label": 1,
+              "Date": "3/1/2036",
               "category1": "B",
               "Rank": "R3",
               "RankInNum": 3
@@ -107,6 +111,7 @@
               "feature_4": 1.562195621,
               "feature_5": -2.434104146,
               "label": 1,
+              "Date": "5/1/2036",
               "category1": "A",
               "Rank": "R4",
               "RankInNum": 4
@@ -127,6 +132,7 @@
               "feature_4": 3.170683249,
               "feature_5": -0.10360824,
               "label": 1,
+              "Date": "5/1/2037",
               "category1": "A",
               "Rank": "R5",
               "RankInNum": 5
@@ -147,6 +153,7 @@
               "feature_4": 2.58588284,
               "feature_5": -1.848401647,
               "label": 1,
+              "Date": "5/1/2038",
               "category1": "A",
               "Rank": "R6",
               "RankInNum": 6
@@ -167,6 +174,7 @@
               "feature_4": 2.152741984,
               "feature_5": -0.189894713,
               "label": 1,
+              "Date": "7/1/2034",
               "category1": "B",
               "Rank": "R3",
               "RankInNum": 3
@@ -187,6 +195,7 @@
               "feature_4": 2.220554031,
               "feature_5": -1.246624829,
               "label": 1,
+              "Date": "11/1/2034",
               "category1": "B",
               "Rank": "R4",
               "RankInNum": 4
@@ -207,6 +216,7 @@
               "feature_4": 3.456935008,
               "feature_5": -0.530442558,
               "label": 1,
+              "Date": "5/1/2035",
               "category1": "A",
               "Rank": "R5",
               "RankInNum": 5
