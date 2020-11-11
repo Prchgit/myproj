@@ -14,53 +14,213 @@
       },
       "testQueries": [
         {
+          "name": "inner_cv #1",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id100",
+              "count": 2,
+              "ID": "id100",
+              "feature_0": 1.132689606,
+              "feature_1": -6.95677586,
+              "feature_2": 3.866085728,
+              "feature_3": 8.242694447,
+              "feature_4": 2.152741984,
+              "feature_5": -0.189894713,
+              "label": 1,
+              "Date": "7/1/2034",
+              "category1": "B",
+              "Rank": "R3",
+              "RankInNum": 3
+            }
           }
         },
         {
+          "name": "inner_cv #2",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id102",
+              "count": 8,
+              "ID": "id102",
+              "feature_0": 1.012847424,
+              "feature_1": -8.438395537,
+              "feature_2": 3.851859024,
+              "feature_3": 7.84295799,
+              "feature_4": 3.456935008,
+              "feature_5": -0.530442558,
+              "label": 1,
+              "Date": "5/1/2035",
+              "category1": "A",
+              "Rank": "R5",
+              "RankInNum": 5
+            }
           }
         },
         {
+          "name": "inner_cv #3",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id103",
+              "count": 8,
+              "ID": "id103",
+              "feature_0": 2.289719252,
+              "feature_1": -8.31344205,
+              "feature_2": 0.905447478,
+              "feature_3": 8.785757546,
+              "feature_4": 3.265232392,
+              "feature_5": -1.282356973,
+              "label": 1,
+              "Date": "11/1/2035",
+              "category1": "B",
+              "Rank": "R6",
+              "RankInNum": 6
+            }
           }
         },
         {
+          "name": "inner_cv #4",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id104",
+              "count": 8,
+              "ID": "id104",
+              "feature_0": 0.21406842,
+              "feature_1": -8.544515547,
+              "feature_2": 3.342633628,
+              "feature_3": 8.214824276,
+              "feature_4": 1.532623763,
+              "feature_5": -1.271618431,
+              "label": 1,
+              "Date": "3/1/2036",
+              "category1": "B",
+              "Rank": "R3",
+              "RankInNum": 3
+            }
           }
         },
         {
+          "name": "inner_cv #5",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id105",
+              "count": 8,
+              "ID": "id105",
+              "feature_0": 1.145182398,
+              "feature_1": -9.104047506,
+              "feature_2": 3.480809146,
+              "feature_3": 8.514781158,
+              "feature_4": 1.562195621,
+              "feature_5": -2.434104146,
+              "label": 1,
+              "Date": "5/1/2036",
+              "category1": "A",
+              "Rank": "R4",
+              "RankInNum": 4
+            }
           }
         },
         {
+          "name": "inner_cv #6",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id106",
+              "count": 8,
+              "ID": "id106",
+              "feature_0": 3.622498582,
+              "feature_1": -7.286039615,
+              "feature_2": 3.873479006,
+              "feature_3": 8.348368625,
+              "feature_4": 3.170683249,
+              "feature_5": -0.10360824,
+              "label": 1,
+              "Date": "5/1/2037",
+              "category1": "A",
+              "Rank": "R5",
+              "RankInNum": 5
+            }
           }
         },
         {
+          "name": "inner_cv #7",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id107",
+              "count": 10,
+              "ID": "id107",
+              "feature_0": 0.175581469,
+              "feature_1": -8.763243233,
+              "feature_2": 2.696623649,
+              "feature_3": 7.709152379,
+              "feature_4": 2.58588284,
+              "feature_5": -1.848401647,
+              "label": 1,
+              "Date": "5/1/2038",
+              "category1": "A",
+              "Rank": "R6",
+              "RankInNum": 6
+            }
           }
         },
         {
+          "name": "inner_cv #8",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id109",
+              "count": 10,
+              "ID": "id109",
+              "feature_0": 1.132689606,
+              "feature_1": -6.95677586,
+              "feature_2": 3.866085728,
+              "feature_3": 8.242694447,
+              "feature_4": 2.152741984,
+              "feature_5": -0.189894713,
+              "label": 1,
+              "Date": "7/1/2034",
+              "category1": "B",
+              "Rank": "R3",
+              "RankInNum": 3
+            }
           }
         },
         {
+          "name": "inner_cv #9",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id110",
+              "count": 14,
+              "ID": "id110",
+              "feature_0": 1.204212554,
+              "feature_1": -8.599995483,
+              "feature_2": 2.404153171,
+              "feature_3": 6.108247066,
+              "feature_4": 2.220554031,
+              "feature_5": -1.246624829,
+              "label": 1,
+              "Date": "11/1/2034",
+              "category1": "B",
+              "Rank": "R4",
+              "RankInNum": 4
+            }
           }
         },
         {
+          "name": "inner_cv #10",
           "q": {
-            "features": {}
+            "features": {
+              "client": "id111",
+              "count": 12,
+              "ID": "id111",
+              "feature_0": 1.012847424,
+              "feature_1": -8.438395537,
+              "feature_2": 3.851859024,
+              "feature_3": 7.84295799,
+              "feature_4": 3.456935008,
+              "feature_5": -0.530442558,
+              "label": 1,
+              "Date": "5/1/2035",
+              "category1": "A",
+              "Rank": "R5",
+              "RankInNum": 5
+            }
           }
         }
       ],
