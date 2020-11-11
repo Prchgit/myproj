@@ -12,7 +12,58 @@
         "shapleyBackgroundSize": 100,
         "subChunkSize": 5000
       },
-      "testQueries": [],
+      "testQueries": [
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        },
+        {
+          "q": {
+            "features": {}
+          }
+        }
+      ],
       "enrichMapping": [],
       "healthCheckQueries": [],
       "returnPostEnrichData": false,
