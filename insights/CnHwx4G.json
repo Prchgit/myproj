@@ -1,0 +1,31 @@
+{
+  "type": "jupyter",
+  "params": {
+    "notebookSmartName": "1625462_test1",
+    "exportTimestamp": 0,
+    "loadLast": true
+  },
+  "owner": "1625462",
+  "listed": false,
+  "name": "1625462_test1",
+  "dashboardCreationId": "HeOSnKz",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "1625462"
+    },
+    "lastModifiedOn": 1605160751452
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "1625462"
+    },
+    "lastModifiedOn": 1605160751452
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
