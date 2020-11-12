@@ -47,7 +47,7 @@
             "box": {
               "top": 3,
               "left": 0,
-              "width": 10,
+              "width": 5,
               "height": 4
             },
             "clickAction": "DO_NOTHING",
@@ -58,6 +58,25 @@
             "showTitle": "YES",
             "insightId": "DpHs7Xp",
             "insightType": "saved-model_report",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 3,
+              "left": 5,
+              "width": 4,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showCode": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "CnHwx4G",
+            "insightType": "jupyter",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
@@ -71,11 +90,11 @@
   "name": "test\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1605160715880
+    "lastModifiedOn": 1605160762525
   },
   "creationTag": {
     "versionNumber": 0,
