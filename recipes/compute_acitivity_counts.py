@@ -15,6 +15,7 @@ activity_data_df = activity_data.get_dataframe()
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
 acitivity_counts_df = activity_data_df # For this sample code, simply copy input to output
+print("some changes")
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # acitivity_counts_df.keys()
