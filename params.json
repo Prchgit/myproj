@@ -10,6 +10,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "1625462_test1",
+          "objectType": "JUPYTER_NOTEBOOK"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -226,11 +235,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "1625462"
     },
-    "lastModifiedOn": 1605085557389
+    "lastModifiedOn": 1605160751005
   },
   "creationTag": {
     "versionNumber": 0,
