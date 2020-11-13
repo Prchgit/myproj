@@ -74,7 +74,7 @@
   },
   "tags": [],
   "params": {
-    "connection": "NAS_DCDA",
+    "connection": "filesystem_managed",
     "path": "${projectKey}/acitivity_counts",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {

@@ -2,7 +2,7 @@
   "name": "modelPkls",
   "type": "Filesystem",
   "params": {
-    "connection": "NAS_DCDA",
+    "connection": "filesystem_managed",
     "path": "${projectKey}/${odbId}",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {

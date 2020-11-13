@@ -74,7 +74,7 @@
   },
   "tags": [],
   "params": {
-    "connection": "NAS_DCDA",
+    "connection": "filesystem_managed",
     "path": "${projectKey}/inner_cv",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
