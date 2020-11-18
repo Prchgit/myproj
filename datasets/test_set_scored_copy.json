@@ -10,7 +10,7 @@
     "kv": {}
   },
   "flowOptions": {
-    "virtualizable": false,
+    "virtualizable": true,
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
   },
@@ -59,23 +59,23 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "1625462"
+      "login": "admin"
     },
-    "lastModifiedOn": 1604478647218
+    "lastModifiedOn": 1605696082319
   },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
-      "login": "1625462"
+      "login": "admin"
     },
-    "lastModifiedOn": 1604478647218
+    "lastModifiedOn": 1605696082316
   },
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/model_pkl",
+    "path": "${projectKey}/test_set_scored_copy",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -85,7 +85,80 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "client",
+        "type": "string"
+      },
+      {
+        "name": "count",
+        "type": "bigint"
+      },
+      {
+        "name": "ID",
+        "type": "string"
+      },
+      {
+        "name": "feature_0",
+        "type": "double"
+      },
+      {
+        "name": "feature_1",
+        "type": "double"
+      },
+      {
+        "name": "feature_2",
+        "type": "double"
+      },
+      {
+        "name": "feature_3",
+        "type": "double"
+      },
+      {
+        "name": "feature_4",
+        "type": "double"
+      },
+      {
+        "name": "feature_5",
+        "type": "double"
+      },
+      {
+        "name": "label",
+        "type": "double"
+      },
+      {
+        "name": "Date",
+        "type": "string"
+      },
+      {
+        "name": "category1",
+        "type": "string"
+      },
+      {
+        "name": "Rank",
+        "type": "string"
+      },
+      {
+        "name": "RankInNum",
+        "type": "double"
+      },
+      {
+        "name": "proba_0.0",
+        "type": "double"
+      },
+      {
+        "name": "proba_2.0",
+        "type": "double"
+      },
+      {
+        "name": "proba_1.0",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
@@ -168,7 +241,5 @@
       "checks": []
     }
   },
-  "customFields": {
-    "gdpr_contains_personal_data": "UNSURE"
-  }
+  "customFields": {}
 }
