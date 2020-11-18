@@ -23,7 +23,38 @@
     ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "MANAGED_FOLDER",
+        "localName": "FPEt6sdw",
+        "rules": [
+          {
+            "targetProject": "PILOTTEST_NEW_BRANCH",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "MANAGED_FOLDER",
+        "localName": "qnpTSRzL",
+        "rules": [
+          {
+            "targetProject": "PILOTTEST_NEW_BRANCH",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "MANAGED_FOLDER",
+        "localName": "3ec84PVP",
+        "rules": [
+          {
+            "targetProject": "PILOTTEST_NEW_BRANCH",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
@@ -234,11 +265,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605696182428
+    "lastModifiedOn": 1605696328655
   },
   "creationTag": {
     "versionNumber": 0,
