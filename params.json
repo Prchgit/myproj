@@ -234,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605695875394
+    "lastModifiedOn": 1605695928883
   },
   "creationTag": {
     "versionNumber": 0,
@@ -249,7 +249,8 @@
   },
   "shortDesc": "The project *test* was created by Zheng, Zejun on Oct 20th 2020",
   "tags": [
-    "imported"
+    "imported",
+    "duplicated"
   ],
   "customFields": {
     "gdpr_forbid_dataset_sharing": false,
