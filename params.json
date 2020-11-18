@@ -177,7 +177,7 @@
       }
     }
   },
-  "name": "pilotTest",
+  "name": "pilotTest (new_branch)",
   "imgPattern": 4,
   "metrics": {
     "probes": [],
@@ -234,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605695928883
+    "lastModifiedOn": 1605695931340
   },
   "creationTag": {
     "versionNumber": 0,
@@ -247,7 +247,7 @@
     },
     "lastModifiedOn": 1603185598504
   },
-  "shortDesc": "The project *test* was created by Zheng, Zejun on Oct 20th 2020",
+  "shortDesc": "The project *test* was created by Zheng, Zejun on Oct 20th 2020\nThe project *PILOTTEST_NEW_BRANCH* was copied from *TEST_2* by Administrator on Nov 18th 2020",
   "tags": [
     "imported",
     "duplicated"
