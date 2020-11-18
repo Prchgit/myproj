@@ -3,7 +3,7 @@
   "type": "Filesystem",
   "params": {
     "connection": "filesystem_folders",
-    "path": "${projectKey}/${odbId}",
+    "path": "/TEST_2/3ec84PVP",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -88,11 +88,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "1625462"
+      "login": "admin"
     },
-    "lastModifiedOn": 1604453926142
+    "lastModifiedOn": 1605696363591
   },
   "creationTag": {
     "versionNumber": 0,
