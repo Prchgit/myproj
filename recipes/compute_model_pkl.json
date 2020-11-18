@@ -7,7 +7,8 @@
       "envMode": "INHERIT"
     },
     "containerSelection": {
-      "containerMode": "INHERIT"
+      "containerMode": "EXPLICIT_CONTAINER",
+      "containerConf": "mydocker"
     },
     "skipPrerunValidate": false
   },
@@ -37,11 +38,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
-      "login": "1625462"
+      "login": "admin"
     },
-    "lastModifiedOn": 1604998532754
+    "lastModifiedOn": 1605674639381
   },
   "creationTag": {
     "versionNumber": 0,
